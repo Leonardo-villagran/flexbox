@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto';
+    font-family:  'Roboto','Open Sans';
 }
 .container{
     display: flex;
@@ -56,18 +56,24 @@ p {
     padding: 0;
 }
 
-.texto_01{
+.texto_bold{
     font-size: 11px;
     font-weight: 500;
     margin: 0;
     padding: 0;
 }
-.texto_02{
+.texto_sub{
     font-size: 10px;
     font-weight: 100;
     margin: 0;
     padding: 0;
     
+}
+.texto_small{
+    font-size: 9px;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
 }
 .button {
     background-color: #A491D2;
@@ -86,7 +92,7 @@ p {
     outline-color: transparent;
     outline-style:solid;
 }
-.card_02{
+.card_chat{
     display:flex; 
     justify-content:center;
     align-items: center;
@@ -123,7 +129,7 @@ p {
     text-align: center;
     width: 45%;
 }
-.texto_bold{
+.texto_bold_centro{
     font-weight: bold;
     font-size: 12px;
 }
