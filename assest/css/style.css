@@ -22,13 +22,16 @@ body {
     flex-direction:row;
     justify-content:space-between;
     flex: 0 0 4rem;
-    width: 200px;
+    width: 240px;
     border: solid 1px;
-    border-color: #BEC1BB;
+    border-color: #E8EBE4 #828485 #E8EBE4 #E8EBE4;
     background-color: #ffffff;
     }
-
+i{
+    margin: 3px;
+}
 .tiny{
+    margin: 0 0 0 5px;
     width: 25px;
     border-radius: 50%;
 }
@@ -57,23 +60,25 @@ p {
 }
 
 .texto_bold{
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 500;
     margin: 0;
     padding: 0;
 }
 .texto_sub{
+    font-size: 11px;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    
+}
+.texto_small{
     font-size: 10px;
     font-weight: 100;
     margin: 0;
     padding: 0;
-    
-}
-.texto_small{
-    font-size: 9px;
-    font-weight: 100;
-    margin: 0;
-    padding: 0;
+    color: gray;
 }
 .button {
     background-color: #A491D2;
@@ -98,9 +103,9 @@ p {
     align-items: center;
     flex-direction:row;
     flex: 0 0 4rem;
-    width: 200px;
+    width: 240px;
     border: solid 1px;
-    border-color: #BEC1BB;
+    border-color: #E8EBE4 #828485 #E8EBE4 #E8EBE4;
     background-color: #ffffff;
 }
 .centro{
@@ -118,12 +123,12 @@ p {
     border-radius: 10px;
     
 }
-.centro_01{
-    font-size: 45px;
+.centro_up{
+    font-size: 40px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
 }
-.centro_02{
+.centro_down{
     font-size: 14px;
     font-weight: 100;
     text-align: center;
